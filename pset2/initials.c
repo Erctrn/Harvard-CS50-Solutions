@@ -1,6 +1,6 @@
 /*
-Eric T.
-cs50
+Eric Tran
+cs50x
 initials.c
 */
 
@@ -16,7 +16,7 @@ int main(void)
     
     printf("%c", toupper(name[0])); // prints uppercase of first letter
     {
-        for (int i = 0, n = strlen(name); i < n; i++) // loop through rest of input
+        for (int i = 0, n = strlen(name); i < n; i++) // loop through rest of string
         {
             if (isspace(name[i])) // checks for spaces
             {
@@ -24,7 +24,6 @@ int main(void)
             }
         }
     }
-    
     printf("\n"); // new line after initials are printed
     return 0;
 }
